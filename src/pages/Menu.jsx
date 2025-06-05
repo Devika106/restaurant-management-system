@@ -12,7 +12,7 @@ const Menu = () => {
   }, []);
 
   const handleOrderNow = (food) => {
-    // Navigate to /order with food data as state
+    
     navigate('/order', { state: food });
   };
 

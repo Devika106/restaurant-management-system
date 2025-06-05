@@ -52,12 +52,12 @@ const TableBooking = () => {
       const result = await response.json();
       setMessage(result.message);
 
-      // Refresh bookings list
+      
       const res = await fetch('http://localhost:8001/');
       const data = await res.json();
       setBookings(data);
 
-      // Clear form
+      
       setTableNumber('');
       setDate('');
       setTime('');

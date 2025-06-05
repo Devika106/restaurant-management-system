@@ -6,10 +6,10 @@ body {
 }
 
 .container {
-  max-width: 400px; /* smaller width for login/register forms */
+  max-width: 400px; 
   margin: 40px auto;
   padding: 20px;
-  background: white; /* add white background to forms */
+  background: white; 
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   box-sizing: border-box;
@@ -79,7 +79,7 @@ nav a {
   text-decoration: none;
 }
 
-/* Link below the form */
+
 .container p {
   text-align: center;
   margin-top: 15px;

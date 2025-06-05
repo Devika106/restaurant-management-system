@@ -26,7 +26,7 @@ const Login = () => {
       if (res.ok) {
         localStorage.setItem('user_id', data.user?.id || data.user_id);
 
-        // Redirect to the original intended path or /menu
+        
         const redirectPath = location.state?.from || '/menu';
         navigate(redirectPath);
       } else {
